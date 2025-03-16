@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lesson Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        hr {
+            width: 50%;
+            margin: 20px auto;
+            border: 1px solid black;
+        }
+        .content {
+            width: 60%;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .feedback-form {
+            margin-top: 30px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4facfe;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .event-media {
+            width: 80%;
+            max-width: 600px;
+            margin: 10px auto;
+            display: block;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lesson</h1>
+    <hr>
+    <div class="content">
+        <h2>Quarter 1 ICT 9 Lessons</h2>
+        <p>During the first quarter of ICT 9, students are introduced to the basics of CSS, which is used to style HTML elements and improve the visual presentation of web pages.</p>
+        
+        <h3>CSS Syntax</h3>
+        <p>CSS (Cascading Style Sheets) uses selectors and properties to apply styles to HTML elements. The syntax follows a `selector { property: value; }` format. For example, `p { color: blue; }` changes the text color of all paragraph elements to blue.</p>
+        
+        <h3>Selectors</h3>
+        <p>Selectors are used to target specific HTML elements. Common selectors include element selectors (`p`, `h1`), class selectors (`.classname`), and ID selectors (`#idname`). Advanced selectors allow styling based on attributes, pseudo-classes, and pseudo-elements.</p>
+        
+        <h3>Text and Font Styling</h3>
+        <p>CSS enables customization of text appearance using properties like `font-family`, `font-size`, `color`, `text-align`, and `text-decoration`. This helps enhance readability and design consistency.</p>
+        
+        <h3>Box Model</h3>
+        <p>The box model consists of four areas: content, padding, border, and margin. Understanding this model is crucial for spacing and layout adjustments. For example, `padding` adds space inside the element, while `margin` creates space outside.</p>
+        
+        <h3>Backgrounds and Colors</h3>
+        <p>CSS allows setting background colors, images, and gradients using properties like `background-color`, `background-image`, and `background-gradient`. This enhances the aesthetic appeal of web pages.</p>
+        
+        <h3>Layouts</h3>
+        <p>Layouts can be structured using techniques like Flexbox and Grid, which provide efficient ways to align and distribute elements on a page. These methods are essential for creating responsive designs.</p>
+    </div>
+    <hr>
+    <h1>Events</h1>
+    <hr>
+    <div class="event-images">
+        <img src="imageone.jpg" alt="Event Image" class="event-media">
+        <video controls class="event-media">
+            <source src="video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <hr>
+    <h1>Reflection</h1>
+    <hr>
+    <div class="feedback-form">
+        <h2>Feedback Form</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <textarea placeholder="Your Feedback" rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

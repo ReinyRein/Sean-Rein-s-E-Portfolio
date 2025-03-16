@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lesson Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        hr {
+            width: 50%;
+            margin: 20px auto;
+            border: 1px solid black;
+        }
+        .content {
+            width: 60%;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .feedback-form {
+            margin-top: 30px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4facfe;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lesson</h1>
+    <hr>
+    <div class="content">
+        <h2>Quarter 4 ICT 9 Lessons</h2>
+        <p>This lesson focuses on advanced JavaScript concepts including Events, Pop-Up Boxes, Conditions, Controls, and Loops.</p>
+        
+        <h3>Events</h3>
+        <p>JavaScript events are actions that occur on a webpage, such as clicking a button or submitting a form. Event listeners are used to respond to these actions.</p>
+        
+        <h3>Pop-Up Boxes</h3>
+        <p>JavaScript provides alert, confirm, and prompt pop-ups to interact with users. These allow notifications, confirmations, and input retrieval.</p>
+        
+        <h3>Conditions</h3>
+        <p>Conditional statements like if-else allow JavaScript to execute different code blocks based on conditions. Example:</p>
+        <pre>
+            <code>
+                if (age >= 18) {
+                    console.log("You are an adult.");
+                } else {
+                    console.log("You are a minor.");
+                }
+            </code>
+        </pre>
+        
+        <h3>Controls & Loops</h3>
+        <p>Loops such as for and while allow repetition of code blocks until conditions are met. Example:</p>
+        <pre>
+            <code>
+                for (let i = 0; i < 5; i++) {
+                    console.log("Iteration: " + i);
+                }
+            </code>
+        </pre>
+    </div>
+    <hr>
+     <div class="event-images">
+        <img src="imageone1.jpg" alt="Event Image" class="event-media">
+    </div>
+    <hr>
+    <h1>Reflection</h1>
+    <hr>
+    <div class="content">
+        <p>Understanding JavaScript events, pop-ups, conditions, and loops has enhanced my ability to create dynamic and interactive web applications. Events help make web pages responsive, while pop-ups improve user engagement. Conditional statements provide decision-making capabilities, and loops simplify repetitive tasks. These concepts are essential for any aspiring web developer, as they form the foundation for more advanced JavaScript programming.</p>
+    </div>
+    <hr>
+    <div class="feedback-form">
+        <h2>Feedback Form</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <textarea placeholder="Your Feedback" rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

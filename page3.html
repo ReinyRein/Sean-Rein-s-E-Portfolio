@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lesson Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        hr {
+            width: 50%;
+            margin: 20px auto;
+            border: 1px solid black;
+        }
+        .content {
+            width: 60%;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .feedback-form {
+            margin-top: 30px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4facfe;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .event-media {
+            width: 80%;
+            max-width: 600px;
+            margin: 10px auto;
+            display: block;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lesson</h1>
+    <hr>
+    <div class="content">
+        <h2>Quarter 3 ICT 9 Lessons</h2>
+        <p>During the first quarter of ICT 9, students are introduced to the basics of JavaScript, a powerful programming language used to create interactive and dynamic web pages.</p>
+        
+        <h3>What is JavaScript?</h3>
+        <p>JavaScript is a scripting language that enables developers to implement complex features on web pages, such as interactive forms, animations, and real-time updates.</p>
+        
+        <h3>JavaScript Syntax</h3>
+        <p>JavaScript code is written in a structured way, using variables, functions, and event listeners. A simple example of JavaScript syntax is:</p>
+        <pre>
+            <code>
+                let message = "Hello, World!";
+                console.log(message);
+            </code>
+        </pre>
+        
+        <h3>Variables and Data Types</h3>
+        <p>JavaScript uses variables to store data. Common data types include strings, numbers, and booleans. Example:</p>
+        <pre>
+            <code>
+                let name = "John";
+                let age = 25;
+                let isStudent = true;
+            </code>
+        </pre>
+        
+        <h3>Functions</h3>
+        <p>Functions allow reusable blocks of code. Example:</p>
+        <pre>
+            <code>
+                function greet(name) {
+                    return "Hello, " + name + "!";
+                }
+                console.log(greet("Alice"));
+            </code>
+        </pre>
+        
+        <h3>Event Handling</h3>
+        <p>JavaScript can respond to user interactions. Example of a button click event:</p>
+        <pre>
+            <code>
+                document.getElementById("myButton").addEventListener("click", function() {
+                    alert("Button Clicked!");
+                });
+            </code>
+        </pre>
+    </div>
+    <hr>
+    <h1>Events</h1>
+    <hr>
+    <div class="event-images">
+        <img src="imageone.jpg" alt="Event Image" class="event-media">
+        <video controls class="event-media">
+            <source src="video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <hr>
+    <h1>Reflection</h1>
+    The process of learning JavaScript via ICT 9 has been revolutionary. Initially, it appeared as if comprehending the interaction among JavaScript, HTML, and CSS was complex; however, with each step forward with the lessons on variables, functions, and event handling, it was apparent how powerful and indispensable JavaScript is when it comes to web development.
+
+    One of the most exciting things was how to make a webpage interactive, whether through simple alerts, interactive buttons, or user input handling. The event-handling tutorial was the most interesting because it described how JavaScript handles user input, turning webpages into interactive pages.
+
+    Despite the challenges that JavaScript's syntax and debugging mechanism pose, the experimentation and practice with code have actually enhanced my problem-solving skills. The first course this quarter has provided a good foundation, and I hope to have the opportunity to explore more advanced areas such as DOM manipulation and APIs in the future.
+    <hr>
+    <div class="feedback-form">
+        <h2>Feedback Form</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <textarea placeholder="Your Feedback" rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
